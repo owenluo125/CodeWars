@@ -1,0 +1,33 @@
+# https://www.codewars.com/kata/56c5847f27be2c3db20009c3/python
+
+def subtract_sum(number):
+    remove = -1000
+    while number > 100 or remove == -1000:
+        remove = 0
+        for x in range(len(str(number))):
+            remove += int(str(number)[x])
+        number -= remove
+    
+    if number == 1 or number == 3 or number == 24 or number == 26 or number == 47 or number == 49 or number == 68 or number == 70 or number == 91 or number == 93:
+        return "kiwi"
+    elif number == 2 or number == 21 or number == 23 or number == 42 or number == 44 or number == 46 or number == 65 or number == 67 or number == 69 or number == 88:
+        return "pear"
+    elif number == 4 or number == 6 or number == 25 or number == 29 or number == 48 or number == 50 or number == 71 or number == 73 or number == 92 or number == 94 or number == 96:
+        return "banana"
+    elif number == 5 or number == 7 or number == 28 or number == 30 or number == 32 or number == 51 or number == 53 or number == 74 or number == 76 or number == 95 or number == 97:
+        return "melon"
+    elif number == 9 or number == 18 or number == 27 or number == 36 or number == 45 or number == 54 or number == 63 or number == 72 or number == 81 or number == 90 or number == 99:
+        return "apple"
+    elif number == 8 or number == 10 or number == 12 or number == 31 or number == 33 or number == 52 or number == 56 or number == 75 or number == 77 or number == 79 or number == 98 or number == 100:
+        return "pinapple"
+    elif number == 20 or number == 22 or number == 41 or number == 43 or number == 62 or number == 64 or number == 66 or number == 85 or number == 87 or number == 90:
+        return "cherry"
+    elif number == 11 or number == 13 or number == 34 or number == 55 or number == 57 or number == 59 or number == 78 or number == 80:
+        return "cucumber"
+    elif number == 15 or number == 17 or number == 19 or number == 38 or number == 40 or number == 61 or number == 82 or number == 84 or number == 86:
+        return "grape"
+    else:
+        return "orange"
+    
+
+
