@@ -1,4 +1,5 @@
 # https://www.codewars.com/kata/56c5847f27be2c3db20009c3/python
+# note: this was the worst program i have ever made and this was the worst problem i have ever solved, do NOT try this problem
 
 def subtract_sum(number):
     remove = -1000
