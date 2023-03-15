@@ -1,6 +1,6 @@
 # CodeWars
 
-Just a little repository of the problems I've done on CodeWars in Python.
+Just a little collection of the problems I've done on CodeWars in Python.
 
 
 ### Useful Links for My Own Use:
