@@ -1,4 +1,5 @@
-# CodeWars
+# CodeWar
+
 
 Just a little collection of the problems I've done on CodeWars in Python.
 
